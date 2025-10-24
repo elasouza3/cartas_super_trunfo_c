@@ -1,4 +1,4 @@
-🎯 Objetivo do Projeto
+🎯 **Objetivo do Projeto**
 
 O programa simula a lógica de comparação de cartas do jogo Super Trunfo, aplicando conceitos fundamentais da linguagem C, como:
 
@@ -12,7 +12,7 @@ Condições lógicas (if / else).
 
 Cada carta contém atributos como população, área, PIB, pontos turísticos, além de cálculos automáticos de densidade populacional e PIB per capita.
 
-🧩 Funcionalidades
+🧩 **Funcionalidades**
 
 ✅ Cadastra duas cartas com informações completas;
 ✅ Calcula automaticamente atributos derivados;
@@ -20,7 +20,7 @@ Cada carta contém atributos como população, área, PIB, pontos turísticos, a
 ✅ Exibe resultado detalhado no terminal;
 ✅ Fácil de alterar o atributo de comparação.
 
-⚙️ Tecnologias Utilizadas
+⚙️ **Tecnologias Utilizadas**
 Categoria	Ferramenta
 💻 Linguagem	C
 🧠 Compilador	GCC
@@ -37,13 +37,13 @@ gcc super_trunfo.c -o super_trunfo
 ▶️ 3. Executar o Programa
 ./super_trunfo
 
-🧮 Atributos Comparáveis
+🧮 **Atributos Comparáveis**
 
 No início do código (super_trunfo.c), altere a macro para escolher o atributo:
 
 #define COMPARE_ATTRIBUTE ATTR_POPULACAO
 
-Atributo	Macro	Regra de Vitória
+**Atributo	Macro	Regra de Vitória**
 🧍 População	ATTR_POPULACAO	Maior vence
 🌎 Área (km²)	ATTR_AREA	Maior vence
 💰 PIB	ATTR_PIB	Maior vence
@@ -57,9 +57,9 @@ Para todos os outros atributos, o maior valor vence.
 
 Em caso de igualdade, o resultado é empate.
 
-📘 A lógica está implementada com if / else if, conforme os requisitos do nível novato do desafio.
+📘 **A lógica está implementada com if / else if, conforme os requisitos do nível novato do desafio.**
 
-📂 Estrutura do Projeto
+📂 **Estrutura do Projeto**
 📁 cartas_super_trunfo_c
 ├── .vscode/           # Configurações de compilação (tasks.json)
 ├── .gitignore         # Ignora arquivos executáveis
@@ -67,7 +67,7 @@ Em caso de igualdade, o resultado é empate.
 ├── main.c             # Código principal
 └── super_trunfo.c     # Lógica de comparação das cartas
 
-👩‍💻 Autora
+👩‍💻 **Autora**
 
 Elaine Souza
 📎 LinkedIn
